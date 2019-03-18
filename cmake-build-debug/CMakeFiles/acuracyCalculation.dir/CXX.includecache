@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hp/CLionProjects/acuracyCalculation/PointNodeStructure.cpp
+
+C:/Users/hp/CLionProjects/acuracyCalculation/main.cpp
+iostream
+-
+PointNodeStructure.cpp
+C:/Users/hp/CLionProjects/acuracyCalculation/PointNodeStructure.cpp
+
