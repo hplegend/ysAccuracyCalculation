@@ -8,6 +8,8 @@
 #include "PointNodeStructure.cpp"
 #include <vector>
 #include <string>
+#include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -17,11 +19,7 @@ private:
 
 
 public:
-
-
-    vector<PointNodeStructure> readAndConstreFromTxtFile(string file);
-
-
+    vector<PointNodeStructure> readAndConstructFromTxtFile(string file);
 
 };
 

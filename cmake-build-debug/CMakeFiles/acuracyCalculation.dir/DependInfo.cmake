@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/hp/CLionProjects/acuracyCalculation/FileReader.cpp" "C:/Users/hp/CLionProjects/acuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj"
-  "C:/Users/hp/CLionProjects/acuracyCalculation/PointNodeStructure.cpp" "C:/Users/hp/CLionProjects/acuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj"
-  "C:/Users/hp/CLionProjects/acuracyCalculation/main.cpp" "C:/Users/hp/CLionProjects/acuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/main.cpp.obj"
+  "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj"
+  "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj"
+  "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/main.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

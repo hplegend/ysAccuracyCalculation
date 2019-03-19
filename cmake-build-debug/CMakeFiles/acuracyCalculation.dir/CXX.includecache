@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/hp/CLionProjects/acuracyCalculation/PointNodeStructure.cpp
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.cpp
+FileReader.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.h
 
-C:/Users/hp/CLionProjects/acuracyCalculation/main.cpp
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.h
+PointNodeStructure.cpp
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
+vector
+-
+string
+-
 iostream
 -
-PointNodeStructure.cpp
-C:/Users/hp/CLionProjects/acuracyCalculation/PointNodeStructure.cpp
+fstream
+-
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
 

@@ -1,18 +1,15 @@
 #include <iostream>
-#include "PointNodeStructure.cpp"
+#include "FileReader.h"
 
 using  namespace std;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+    FileReader *fileReader = new FileReader;
+    vector<PointNodeStructure> pointNodes = fileReader->readAndConstructFromTxtFile("./text.txt");
 
-    PointNodeStructure *pointNodeStructure = new PointNodeStructure;
-
-    pointNodeStructure->pointLabel = 1;
-    pointNodeStructure->pointX = 1;
-
-    cout<<pointNodeStructure->pointX<<endl;
-
-
+    for (int i=0 ;i< pointNodes.size() ; ++i) {
+        cout<<pointNodes[i].pointX<<endl;
+    }
     return 0;
 }
