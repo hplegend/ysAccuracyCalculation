@@ -89,6 +89,12 @@
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp">
 			<Option target="acuracyCalculation"/>
 		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/main.cpp">
 			<Option target="acuracyCalculation"/>
 		</Unit>

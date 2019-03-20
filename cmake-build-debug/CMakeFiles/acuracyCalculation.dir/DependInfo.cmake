@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj"
   "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj"
+  "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj"
   "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/main.cpp" "C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

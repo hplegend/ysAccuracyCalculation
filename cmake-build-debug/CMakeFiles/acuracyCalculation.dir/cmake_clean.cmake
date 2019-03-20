@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/acuracyCalculation.dir/main.cpp.obj"
   "CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj"
   "CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj"
+  "CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj"
   "acuracyCalculation.pdb"
   "acuracyCalculation.exe"
   "acuracyCalculation.exe.manifest"

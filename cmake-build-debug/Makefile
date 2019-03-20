@@ -176,6 +176,33 @@ PointNodeStructure.cpp.s:
 	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.s
 .PHONY : PointNodeStructure.cpp.s
 
+PointNodesComparison.obj: PointNodesComparison.cpp.obj
+
+.PHONY : PointNodesComparison.obj
+
+# target to build an object file
+PointNodesComparison.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj
+.PHONY : PointNodesComparison.cpp.obj
+
+PointNodesComparison.i: PointNodesComparison.cpp.i
+
+.PHONY : PointNodesComparison.i
+
+# target to preprocess a source file
+PointNodesComparison.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.i
+.PHONY : PointNodesComparison.cpp.i
+
+PointNodesComparison.s: PointNodesComparison.cpp.s
+
+.PHONY : PointNodesComparison.s
+
+# target to generate assembly for a file
+PointNodesComparison.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.s
+.PHONY : PointNodesComparison.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... PointNodeStructure.obj
 	@echo ... PointNodeStructure.i
 	@echo ... PointNodeStructure.s
+	@echo ... PointNodesComparison.obj
+	@echo ... PointNodesComparison.i
+	@echo ... PointNodesComparison.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

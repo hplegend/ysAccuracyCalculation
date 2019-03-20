@@ -3,4 +3,4 @@ project(acuracyCalculation)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(acuracyCalculation main.cpp PointNodeStructure.cpp FileReader.cpp FileReader.h)
+add_executable(acuracyCalculation main.cpp PointNodeStructure.cpp FileReader.cpp FileReader.h PointNodesComparison.cpp PointNodesComparison.h)
