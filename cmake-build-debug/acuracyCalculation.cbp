@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/acuracyCalculation"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include"/>
+					<Add directory="C:/Users/hp.he/CLionProjects/Treeanimation/header"/>
 					<Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++"/>
 					<Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32"/>
 					<Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward"/>
@@ -45,6 +48,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/acuracyCalculation"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include"/>
+					<Add directory="C:/Users/hp.he/CLionProjects/Treeanimation/header"/>
 					<Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++"/>
 					<Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32"/>
 					<Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward"/>
@@ -80,10 +86,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.cpp">
 			<Option target="acuracyCalculation"/>
 		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h">
 			<Option target="acuracyCalculation"/>
 		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp">
@@ -93,6 +123,18 @@
 			<Option target="acuracyCalculation"/>
 		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h">
 			<Option target="acuracyCalculation"/>
 		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/main.cpp">

@@ -122,6 +122,33 @@ acuracyCalculation/fast:
 	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/build
 .PHONY : acuracyCalculation/fast
 
+CTree.obj: CTree.cpp.obj
+
+.PHONY : CTree.obj
+
+# target to build an object file
+CTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj
+.PHONY : CTree.cpp.obj
+
+CTree.i: CTree.cpp.i
+
+.PHONY : CTree.i
+
+# target to preprocess a source file
+CTree.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/CTree.cpp.i
+.PHONY : CTree.cpp.i
+
+CTree.s: CTree.cpp.s
+
+.PHONY : CTree.s
+
+# target to generate assembly for a file
+CTree.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/CTree.cpp.s
+.PHONY : CTree.cpp.s
+
 FileReader.obj: FileReader.cpp.obj
 
 .PHONY : FileReader.obj
@@ -148,6 +175,87 @@ FileReader.s: FileReader.cpp.s
 FileReader.cpp.s:
 	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/FileReader.cpp.s
 .PHONY : FileReader.cpp.s
+
+LineDistence.obj: LineDistence.cpp.obj
+
+.PHONY : LineDistence.obj
+
+# target to build an object file
+LineDistence.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj
+.PHONY : LineDistence.cpp.obj
+
+LineDistence.i: LineDistence.cpp.i
+
+.PHONY : LineDistence.i
+
+# target to preprocess a source file
+LineDistence.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.i
+.PHONY : LineDistence.cpp.i
+
+LineDistence.s: LineDistence.cpp.s
+
+.PHONY : LineDistence.s
+
+# target to generate assembly for a file
+LineDistence.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.s
+.PHONY : LineDistence.cpp.s
+
+Matrix3D.obj: Matrix3D.cpp.obj
+
+.PHONY : Matrix3D.obj
+
+# target to build an object file
+Matrix3D.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj
+.PHONY : Matrix3D.cpp.obj
+
+Matrix3D.i: Matrix3D.cpp.i
+
+.PHONY : Matrix3D.i
+
+# target to preprocess a source file
+Matrix3D.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.i
+.PHONY : Matrix3D.cpp.i
+
+Matrix3D.s: Matrix3D.cpp.s
+
+.PHONY : Matrix3D.s
+
+# target to generate assembly for a file
+Matrix3D.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.s
+.PHONY : Matrix3D.cpp.s
+
+OCtree.obj: OCtree.cpp.obj
+
+.PHONY : OCtree.obj
+
+# target to build an object file
+OCtree.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj
+.PHONY : OCtree.cpp.obj
+
+OCtree.i: OCtree.cpp.i
+
+.PHONY : OCtree.i
+
+# target to preprocess a source file
+OCtree.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/OCtree.cpp.i
+.PHONY : OCtree.cpp.i
+
+OCtree.s: OCtree.cpp.s
+
+.PHONY : OCtree.s
+
+# target to generate assembly for a file
+OCtree.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/OCtree.cpp.s
+.PHONY : OCtree.cpp.s
 
 PointNodeStructure.obj: PointNodeStructure.cpp.obj
 
@@ -203,6 +311,60 @@ PointNodesComparison.cpp.s:
 	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.s
 .PHONY : PointNodesComparison.cpp.s
 
+SpaceColonizationHeader.obj: SpaceColonizationHeader.cpp.obj
+
+.PHONY : SpaceColonizationHeader.obj
+
+# target to build an object file
+SpaceColonizationHeader.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj
+.PHONY : SpaceColonizationHeader.cpp.obj
+
+SpaceColonizationHeader.i: SpaceColonizationHeader.cpp.i
+
+.PHONY : SpaceColonizationHeader.i
+
+# target to preprocess a source file
+SpaceColonizationHeader.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.i
+.PHONY : SpaceColonizationHeader.cpp.i
+
+SpaceColonizationHeader.s: SpaceColonizationHeader.cpp.s
+
+.PHONY : SpaceColonizationHeader.s
+
+# target to generate assembly for a file
+SpaceColonizationHeader.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.s
+.PHONY : SpaceColonizationHeader.cpp.s
+
+Vector3D.obj: Vector3D.cpp.obj
+
+.PHONY : Vector3D.obj
+
+# target to build an object file
+Vector3D.cpp.obj:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj
+.PHONY : Vector3D.cpp.obj
+
+Vector3D.i: Vector3D.cpp.i
+
+.PHONY : Vector3D.i
+
+# target to preprocess a source file
+Vector3D.cpp.i:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.i
+.PHONY : Vector3D.cpp.i
+
+Vector3D.s: Vector3D.cpp.s
+
+.PHONY : Vector3D.s
+
+# target to generate assembly for a file
+Vector3D.cpp.s:
+	$(MAKE) -f CMakeFiles\acuracyCalculation.dir\build.make CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.s
+.PHONY : Vector3D.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -239,15 +401,33 @@ help:
 	@echo ... acuracyCalculation
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... CTree.obj
+	@echo ... CTree.i
+	@echo ... CTree.s
 	@echo ... FileReader.obj
 	@echo ... FileReader.i
 	@echo ... FileReader.s
+	@echo ... LineDistence.obj
+	@echo ... LineDistence.i
+	@echo ... LineDistence.s
+	@echo ... Matrix3D.obj
+	@echo ... Matrix3D.i
+	@echo ... Matrix3D.s
+	@echo ... OCtree.obj
+	@echo ... OCtree.i
+	@echo ... OCtree.s
 	@echo ... PointNodeStructure.obj
 	@echo ... PointNodeStructure.i
 	@echo ... PointNodeStructure.s
 	@echo ... PointNodesComparison.obj
 	@echo ... PointNodesComparison.i
 	@echo ... PointNodesComparison.s
+	@echo ... SpaceColonizationHeader.obj
+	@echo ... SpaceColonizationHeader.i
+	@echo ... SpaceColonizationHeader.s
+	@echo ... Vector3D.obj
+	@echo ... Vector3D.i
+	@echo ... Vector3D.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

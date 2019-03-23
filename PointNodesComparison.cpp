@@ -22,4 +22,8 @@ float PointNodesComparison::simpleCalculateAccuracy(vector<PointNodeStructure> g
  * 八叉树
  * */
 float PointNodesComparison::ocalTreeCalculateAccuracy(vector<PointNodeStructure> groundTruth,
-                                                      vector<PointNodeStructure> others) {}
+                                                      vector<PointNodeStructure> others) {
+
+
+
+}

@@ -6,6 +6,378 @@
 
 #IncludeRegexTransform: 
 
+C:/Program Files (x86)/CodeBlocks/MinGW/include/GL/gl.h
+GL/glext.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/GL/glext.h
+windows.h
+-
+stddef.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/GL/glu.h
+stddef.h
+-
+GL/gl.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/GL/glut.h
+windows.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/_mingw.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/assert.h
+_mingw.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/basetsd.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/basetyps.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/cderr.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/cguid.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/commctrl.h
+prsht.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/commdlg.h
+unknwn.h
+-
+prsht.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/dde.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/ddeml.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/dlgs.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/excpt.h
+_mingw.h
+-
+windef.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/imm.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/lzexpand.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/math.h
+_mingw.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/mmsystem.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/mswsock.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/nb30.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/oaidl.h
+windows.h
+-
+ole2.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/objbase.h
+rpc.h
+-
+rpcndr.h
+-
+stdlib.h
+-
+basetyps.h
+-
+wtypes.h
+-
+unknwn.h
+-
+objidl.h
+-
+cguid.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/objfwd.h
+basetyps.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/objidl.h
+objfwd.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/ole2.h
+winerror.h
+-
+objbase.h
+-
+olectlid.h
+-
+oleauto.h
+-
+oleidl.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/oleauto.h
+oaidl.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/olectlid.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/oleidl.h
+objfwd.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/poppack.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/prsht.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/pshpack2.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/pshpack4.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpc.h
+windows.h
+-
+rpcdce.h
+-
+rpcnsi.h
+-
+rpcnterr.h
+-
+winerror.h
+-
+excpt.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpcdce.h
+basetyps.h
+-
+rpcdcep.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpcdcep.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpcndr.h
+rpcnsip.h
+-
+objfwd.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpcnsi.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpcnsip.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/rpcnterr.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/shellapi.h
+pshpack2.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/stdio.h
+_mingw.h
+-
+stddef.h
+-
+stdarg.h
+-
+sys/types.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/stdlib.h
+_mingw.h
+-
+stddef.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/string.h
+_mingw.h
+-
+stddef.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/sys/time.h
+time.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/sys/types.h
+_mingw.h
+-
+stddef.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/time.h
+_mingw.h
+-
+stddef.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/unknwn.h
+windows.h
+-
+objfwd.h
+-
+wtypes.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winbase.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/wincon.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/windef.h
+winnt.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/windows.h
+winresrc.h
+-
+stdarg.h
+-
+windef.h
+-
+wincon.h
+-
+winbase.h
+-
+wingdi.h
+-
+winuser.h
+-
+winnls.h
+-
+winver.h
+-
+winnetwk.h
+-
+winreg.h
+-
+winsvc.h
+-
+cderr.h
+-
+dde.h
+-
+ddeml.h
+-
+dlgs.h
+-
+imm.h
+-
+lzexpand.h
+-
+mmsystem.h
+-
+nb30.h
+-
+rpc.h
+-
+shellapi.h
+-
+winperf.h
+-
+commdlg.h
+-
+winspool.h
+-
+winsock2.h
+-
+winsock.h
+-
+ole2.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winerror.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/wingdi.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winnetwk.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winnls.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winnt.h
+winerror.h
+-
+string.h
+-
+basetsd.h
+-
+pshpack4.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winperf.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winreg.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winresrc.h
+winuser.h
+-
+winnt.h
+-
+winver.h
+-
+dde.h
+-
+dlgs.h
+-
+commctrl.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winsock.h
+windows.h
+-
+mswsock.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winsock2.h
+windows.h
+-
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winspool.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winsvc.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winuser.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/winver.h
+
+C:/Program Files (x86)/CodeBlocks/MinGW/include/wtypes.h
+rpc.h
+-
+rpcndr.h
+-
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.cpp
+CTree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h
+Vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+Matrix3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.h
+LineDistence.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.h
+iostream
+-
+fstream
+-
+ctime
+-
+vector
+-
+queue
+-
+
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.cpp
 FileReader.h
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.h
@@ -22,5 +394,127 @@ iostream
 fstream
 -
 
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.cpp
+LineDistence.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.h
+vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3D.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.cpp
+matrix3d.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/matrix3d.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.h
+Vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.cpp
+OCtree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
+Vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
+windows.h
+-
+GL/glut.h
+-
+iostream
+-
+vector
+-
+fstream
+-
+
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.cpp
+PointNodesComparison.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.h
+vector
+-
+PointNodeStructure.cpp
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.cpp
+SpaceColonizationHeader.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h
+OCtree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+math.h
+-
+assert.h
+-
+fstream
+-
+ctime
+-
+vector
+-
+queue
+-
+Matrix3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.h
+Vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+CTree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.cpp
+vector3d.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3d.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+windows.h
+-
+GL/glut.h
+-
+cmath
+-
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/main.cpp
+windows.h
+-
+GL/glut.h
+-
+sys/time.h
+-
+time.h
+-
+SpaceColonizationHeader.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h
+OCtree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/matrix3d.h
+Vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3D.h
+windows.h
+-
+GL/glut.h
+-
+cmath
+-
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3d.h
+windows.h
+-
+GL/glut.h
+-
+cmath
+-
 

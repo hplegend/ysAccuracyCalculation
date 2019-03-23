@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++0x
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
 

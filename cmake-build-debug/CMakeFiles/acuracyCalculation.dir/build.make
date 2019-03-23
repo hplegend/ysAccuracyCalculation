@@ -57,6 +57,7 @@ include CMakeFiles/acuracyCalculation.dir/progress.make
 include CMakeFiles/acuracyCalculation.dir/flags.make
 
 CMakeFiles/acuracyCalculation.dir/main.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/main.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
 CMakeFiles/acuracyCalculation.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acuracyCalculation.dir/main.cpp.obj"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\main.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\main.cpp
@@ -70,6 +71,7 @@ CMakeFiles/acuracyCalculation.dir/main.cpp.s: cmake_force
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\main.cpp -o CMakeFiles\acuracyCalculation.dir\main.cpp.s
 
 CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
 CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj: ../PointNodeStructure.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\PointNodeStructure.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\PointNodeStructure.cpp
@@ -83,6 +85,7 @@ CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.s: cmake_force
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\PointNodeStructure.cpp -o CMakeFiles\acuracyCalculation.dir\PointNodeStructure.cpp.s
 
 CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
 CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj: ../FileReader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\FileReader.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\FileReader.cpp
@@ -96,6 +99,7 @@ CMakeFiles/acuracyCalculation.dir/FileReader.cpp.s: cmake_force
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\FileReader.cpp -o CMakeFiles\acuracyCalculation.dir\FileReader.cpp.s
 
 CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
 CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj: ../PointNodesComparison.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\PointNodesComparison.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\PointNodesComparison.cpp
@@ -108,12 +112,102 @@ CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.s"
 	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\PointNodesComparison.cpp -o CMakeFiles\acuracyCalculation.dir\PointNodesComparison.cpp.s
 
+CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
+CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj: ../Matrix3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\Matrix3D.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\Matrix3D.cpp
+
+CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\Matrix3D.cpp > CMakeFiles\acuracyCalculation.dir\Matrix3D.cpp.i
+
+CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\Matrix3D.cpp -o CMakeFiles\acuracyCalculation.dir\Matrix3D.cpp.s
+
+CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
+CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj: ../Vector3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\Vector3D.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\Vector3D.cpp
+
+CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\Vector3D.cpp > CMakeFiles\acuracyCalculation.dir\Vector3D.cpp.i
+
+CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\Vector3D.cpp -o CMakeFiles\acuracyCalculation.dir\Vector3D.cpp.s
+
+CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
+CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj: ../SpaceColonizationHeader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\SpaceColonizationHeader.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\SpaceColonizationHeader.cpp
+
+CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\SpaceColonizationHeader.cpp > CMakeFiles\acuracyCalculation.dir\SpaceColonizationHeader.cpp.i
+
+CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\SpaceColonizationHeader.cpp -o CMakeFiles\acuracyCalculation.dir\SpaceColonizationHeader.cpp.s
+
+CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
+CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj: ../LineDistence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\LineDistence.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\LineDistence.cpp
+
+CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\LineDistence.cpp > CMakeFiles\acuracyCalculation.dir\LineDistence.cpp.i
+
+CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\LineDistence.cpp -o CMakeFiles\acuracyCalculation.dir\LineDistence.cpp.s
+
+CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
+CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj: ../CTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\CTree.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\CTree.cpp
+
+CMakeFiles/acuracyCalculation.dir/CTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acuracyCalculation.dir/CTree.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\CTree.cpp > CMakeFiles\acuracyCalculation.dir\CTree.cpp.i
+
+CMakeFiles/acuracyCalculation.dir/CTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/CTree.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\CTree.cpp -o CMakeFiles\acuracyCalculation.dir\CTree.cpp.s
+
+CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj: CMakeFiles/acuracyCalculation.dir/flags.make
+CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj: CMakeFiles/acuracyCalculation.dir/includes_CXX.rsp
+CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj: ../OCtree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\acuracyCalculation.dir\OCtree.cpp.obj -c C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\OCtree.cpp
+
+CMakeFiles/acuracyCalculation.dir/OCtree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acuracyCalculation.dir/OCtree.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\OCtree.cpp > CMakeFiles\acuracyCalculation.dir\OCtree.cpp.i
+
+CMakeFiles/acuracyCalculation.dir/OCtree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acuracyCalculation.dir/OCtree.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\OCtree.cpp -o CMakeFiles\acuracyCalculation.dir\OCtree.cpp.s
+
 # Object files for target acuracyCalculation
 acuracyCalculation_OBJECTS = \
 "CMakeFiles/acuracyCalculation.dir/main.cpp.obj" \
 "CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj" \
 "CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj" \
-"CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj"
+"CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj" \
+"CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj" \
+"CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj" \
+"CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj" \
+"CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj" \
+"CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj" \
+"CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj"
 
 # External object files for target acuracyCalculation
 acuracyCalculation_EXTERNAL_OBJECTS =
@@ -122,11 +216,40 @@ acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/main.cpp.obj
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/PointNodeStructure.cpp.obj
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/FileReader.cpp.obj
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/PointNodesComparison.cpp.obj
+acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/Matrix3D.cpp.obj
+acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj
+acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj
+acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj
+acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj
+acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/build.make
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libglaux.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libopengl32.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libglaux.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libglu32.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libkernel32.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glut32.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32mx.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32mxs.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32s.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32s.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glut.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\AntTweakBar.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libopengl32.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libglu32.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\libkernel32.a
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glut32.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32mx.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32mxs.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glew32s.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\glut.lib
+acuracyCalculation.exe: C:\\Program\ Files\ (x86)\\CodeBlocks\\MinGW\\lib\\AntTweakBar.lib
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/linklibs.rsp
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/objects1.rsp
 acuracyCalculation.exe: CMakeFiles/acuracyCalculation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable acuracyCalculation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable acuracyCalculation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\acuracyCalculation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
