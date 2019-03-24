@@ -7,16 +7,22 @@
 #include <vector>
 #include <fstream>
 
-#define MINBOUND 0.2
-#define MINNUMBER 3
+#define MINBOUND 0.5
+#define MINNUMBER 5
 
 
 using namespace std;
 
 typedef struct OCtreePoint {
     float x, y, z;
+    bool isIndex;
     //double n;
     //unsigned int code;
+
+    OCtreePoint() {
+        isIndex = false;
+    }
+
 } OCPoint;
 
 typedef struct Bound {
@@ -34,7 +40,7 @@ typedef struct OCTreeNode {
     bool leaf;
 
     // 存储区间的点云
-    vector<OCTreeNode> element;
+    vector<OCtreePoint> element;
 
     OCTreeNode() {
         leaf = false;
@@ -66,6 +72,10 @@ private :
 
     int coutingACubicNumber(Bounds centerBounds);
 
+    void fileLeafCubic(Bound bound, OCTreeNode *leafNode);
+
+    void doSearchPoint();
+
 public :
     OCTree();
 
@@ -81,7 +91,7 @@ public :
 
     void OCtreeExecute();
 
-    bool searchPointInOCtree(OCtreePoint searchPoint, OCTreeNode *branch);
+    bool searchPointInOCtree(OCtreePoint OCPoint, OCTreeNode *branch);
 
 };
 

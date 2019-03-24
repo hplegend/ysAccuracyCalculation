@@ -6,6 +6,8 @@ extern float centerx, centery, centerz;
 
 ofstream outNumber(".\\model\\number.txt");
 
+ofstream cubicStream(".\\model\\cubic.txt");
+
 OCTree::OCTree() {
 
 }
@@ -32,9 +34,27 @@ void OCTree::OCtreeExecute() {
     // 遍历八叉树
     transerver(root);
 
+    //
+    doSearchPoint();
+
     // 创建渲染list
     createCubicList();
     outNumber.close();
+    //  cubicStream.close();
+}
+
+
+void OCTree::doSearchPoint() {
+
+    for (int i = 0; i < OctreePointSet.size(); ++i) {
+        // test search
+        OCtreePoint *searchPoint = new OCtreePoint;
+        searchPoint->x = OctreePointSet[i].x;
+        searchPoint->y = OctreePointSet[i].y;
+        searchPoint->z = OctreePointSet[i].z;
+        searchPointInOCtree(*searchPoint, root);
+    }
+
 }
 
 // read point
@@ -42,13 +62,18 @@ void OCTree::readPoint() {
     OCPoint point;
     int number;
     int i;
-    ifstream inFile(".\\model\\NormalDensity_07.txt");
+    // ifstream inFile(".\\model\\NormalDensity_07.txt");
+    ifstream inFile(".\\data\\0.0030\\0.0030_0.0030.txt");
 
     OctreePointSet.clear();
     inFile >> number;
     pointSetSize = number;
+    int r, g, b;
     for (i = 0; i < number; i++) {
         inFile >> point.x >> point.y >> point.z;
+
+        // discard
+        inFile >> r >> g >> b;
         /*  point.x*=16;
           point.y*=16;
           point.z*=16;*/
@@ -79,6 +104,7 @@ void OCTree::buildOCtree(OCNode *OCTreeNode) {
 
         // 把数据存进来
         // 不然没法搜索到
+        fileLeafCubic(OCTreeNode->bounds, OCTreeNode);
         return;
     }
     /*
@@ -107,6 +133,55 @@ void OCTree::buildOCtree(OCNode *OCTreeNode) {
         buildOCtree(OCTreeNode->childNode[i]);
     }
 
+}
+
+
+void OCTree::fileLeafCubic(Bound bound, OCNode *leafNode) {
+
+    leafNode->element.clear();
+
+    //
+    float leftX, rightX;
+    float upY, downY;
+    float frontZ, backZ;
+
+    //
+    leftX = bound.center.x - bound.radius;
+    rightX = bound.center.x + bound.radius;
+
+
+    downY = bound.center.y - bound.radius;
+    upY = bound.center.y + bound.radius;
+
+    backZ = bound.center.z - bound.radius;
+    frontZ = bound.center.z + bound.radius;
+
+    for (int i = 0; i < pointSetSize; ++i) {
+        //
+        if (OctreePointSet[i].isIndex) {
+            continue;
+        }
+
+        if (OctreePointSet[i].x >= leftX && OctreePointSet[i].x <= rightX
+            &&
+            OctreePointSet[i].y >= downY && OctreePointSet[i].y <= upY
+            &&
+            OctreePointSet[i].z >= backZ && OctreePointSet[i].z <= frontZ
+                ) {
+
+            leafNode->element.push_back(OctreePointSet[i]);
+
+            OctreePointSet[i].isIndex = true;
+        }
+
+    }
+
+    if (leafNode->element.size() > 20) {
+        cout << "error" << endl;
+        system("pause");
+    }
+
+    cubicStream << "node number：" << leafNode->element.size() << endl;
 }
 
 // 把每一点与中间点相减，得到三个坐标的符号，通过符号来判断点的归属
@@ -424,12 +499,61 @@ bool OCTree::searchPointInOCtree(OCtreePoint searchPoint, OCTreeNode *branch) {
 
     // 一定要到叶子节点，才能找到点
     if (branch->leaf) {
-        // 开始从四个方向找
 
+        for (int i = 0; i < branch->element.size(); ++i) {
+            if (abs(branch->element[i].x - searchPoint.x) <= 0.00001 &&
+                abs(branch->element[i].y - searchPoint.y) <= 0.00001 &&
+                abs(branch->element[i].z - searchPoint.z) <= 0.00001
+                    ) {
+                cout << "findddddd" << branch->element[i].x << "------" << branch->element[i].y << "------"
+                     << branch->element[i].z << endl;
+                return true;
+            }
+        }
 
-
-
+        cout << "not findddddd" << searchPoint.x << "------" << searchPoint.y << "------"
+             << searchPoint.z << endl;
+        return false;
     }
 
+    float leftX, rightX;
+    float upY, downY;
+    float frontZ, backZ;
+
+
     // 不是叶子节点，定位区间，继续递归找
+    // 还在接的中心，确定区间
+    for (int j = 0; j < 8; ++j) {
+
+
+        Bound bound = branch->childNode[j]->bounds;
+
+        //
+        leftX = bound.center.x - bound.radius;
+        rightX = bound.center.x + bound.radius;
+
+
+        downY = bound.center.y - bound.radius;
+        upY = bound.center.y + bound.radius;
+
+        backZ = bound.center.z - bound.radius;
+        frontZ = bound.center.z + bound.radius;
+
+
+        if (searchPoint.x >= leftX && searchPoint.x <= rightX
+            &&
+            searchPoint.y >= downY && searchPoint.y <= upY
+            &&
+            searchPoint.z >= backZ && searchPoint.z <= frontZ
+                ) {
+
+            // 递归
+            bool searchRet = searchPointInOCtree(searchPoint, branch->childNode[j]);
+            if (searchRet) {
+                return searchRet;
+            }
+        }
+    }
+
+    return false;
 }
