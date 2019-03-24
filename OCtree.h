@@ -7,7 +7,7 @@
 #include <vector>
 #include <fstream>
 
-#define MINBOUND 0.5
+#define MINBOUND 0.1
 #define MINNUMBER 5
 
 

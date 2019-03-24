@@ -176,7 +176,7 @@ void OCTree::fileLeafCubic(Bound bound, OCNode *leafNode) {
 
     }
 
-    if (leafNode->element.size() > 20) {
+    if (leafNode->element.size() > 2000) {
         cout << "error" << endl;
         system("pause");
     }
