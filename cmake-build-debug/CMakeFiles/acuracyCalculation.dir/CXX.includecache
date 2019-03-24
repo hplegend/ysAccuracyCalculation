@@ -356,10 +356,6 @@ rpc.h
 rpcndr.h
 -
 
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.cpp
-CTree.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h
-
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h
 Vector3D.h
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
@@ -378,33 +374,9 @@ vector
 queue
 -
 
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.cpp
-FileReader.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.h
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/FileReader.h
-PointNodeStructure.cpp
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
-vector
--
-string
--
-iostream
--
-fstream
--
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.cpp
-LineDistence.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.h
-
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/LineDistence.h
 vector3D.h
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3D.h
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.cpp
-matrix3d.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/matrix3d.h
 
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.h
 Vector3D.h
@@ -427,18 +399,6 @@ vector
 -
 fstream
 -
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.cpp
-PointNodesComparison.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.h
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodesComparison.h
-vector
--
-PointNodeStructure.cpp
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/PointNodeStructure.cpp
 
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.cpp
 SpaceColonizationHeader.h
@@ -472,10 +432,6 @@ C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
 CTree.h
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/CTree.h
 
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.cpp
-vector3d.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3d.h
-
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
 windows.h
 -
@@ -498,19 +454,7 @@ C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h
 OCtree.h
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
 
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/matrix3d.h
-Vector3D.h
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
-
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3D.h
-windows.h
--
-GL/glut.h
--
-cmath
--
-
-C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/vector3d.h
 windows.h
 -
 GL/glut.h

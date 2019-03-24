@@ -7,69 +7,81 @@
 #include <vector>
 #include <fstream>
 
-#define MINBOUND 0.6
-#define MINNUMBER 5
+#define MINBOUND 0.2
+#define MINNUMBER 3
 
 
 using namespace std;
 
-typedef struct OCtreePoint
-{
-    float x,y,z;
+typedef struct OCtreePoint {
+    float x, y, z;
     //double n;
     //unsigned int code;
-}OCPoint;
+} OCPoint;
 
-typedef struct Bound
-{
+typedef struct Bound {
     OCPoint center;
     float radius;  //边长为多少？？
 
-}Bounds;
+} Bounds;
 //时空的权衡
-typedef struct OCTreeNode
-{
- //OCPoint *points;
- OCTreeNode *childNode[8];
- int number;
+typedef struct OCTreeNode {
+    //OCPoint *points;
+    OCTreeNode *childNode[8];
+    int number;
 // int level;
- Bounds bounds;
- bool leaf;
+    Bounds bounds;
+    bool leaf;
 
- OCTreeNode()
- {
-     leaf=false;
-     number=0;
- }
+    // 存储区间的点云
+    vector<OCTreeNode> element;
 
-}OCNode;
+    OCTreeNode() {
+        leaf = false;
+        number = 0;
+    }
 
-class OCTree
-{
-    private :
-     GLuint OCtreeList;
-     vector<OCPoint> OctreePointSet;
-     int pointSetSize;
-     OCNode *root;
-     vector<Bound> boundSet;
+} OCNode;
+
+class OCTree {
+private :
+    GLuint OCtreeList;
+    vector<OCPoint> OctreePointSet;
+    int pointSetSize;
+    OCNode *root;
+    vector<Bound> boundSet;
     // Bounds bound;
 
-     void  createCubicList();
+    void createCubicList();
+
     void drawCubic();
+
     void Cubic(Bounds bounds);
+
     void readPoint();
-    void countSpaceNumber(int number[],Bounds centerBounds);
+
+    void countSpaceNumber(int number[], Bounds centerBounds);
+
     void transerver(OCNode *node);
+
     int coutingACubicNumber(Bounds centerBounds);
 
-    public :
+public :
     OCTree();
+
     ~OCTree();
-  Bounds  calCubicBounds(vector<OCPoint> point,int count);
-  void buildOCtree(OCNode *OCTreeNode);
-  void CallCubicList();
-  void CalSplitBounds(Bounds bound,Bounds afterSplit[]);
-  void OCtreeExecute();
+
+    Bounds calCubicBounds(vector<OCPoint> point, int count);
+
+    void buildOCtree(OCNode *OCTreeNode);
+
+    void CallCubicList();
+
+    void CalSplitBounds(Bounds bound, Bounds afterSplit[]);
+
+    void OCtreeExecute();
+
+    bool searchPointInOCtree(OCtreePoint searchPoint, OCTreeNode *branch);
 
 };
 
