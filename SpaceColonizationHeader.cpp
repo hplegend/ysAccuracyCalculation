@@ -19,6 +19,94 @@ extern double precision;
 extern CTree myTree;
 extern OCTree octree;
 
+extern float cube_left_top_x ,cube_left_top_y,cube_left_top_z;
+extern float cube_right_buttom_x ,cube_right_buttom_y,cube_right_buttom_z;
+/*
+ * 把物体移动到世界坐标的中心
+ * step 1：计算包围盒的中心
+ * step 2：计算包围盒中心与世界坐标的偏移向量
+ * step 3：每一个点与偏移向量的和
+ * step 4：得到新坐标系
+*/
+void SpaceColonization::translateTreeCenter() {
+
+    float center_x = cube_right_buttom_x + (cube_left_top_x - cube_right_buttom_x) / 2.0;
+    float center_y = cube_right_buttom_y + (cube_left_top_y - cube_right_buttom_y) / 2.0;
+    float center_z = cube_right_buttom_z + (cube_left_top_z - cube_right_buttom_z) / 2.0;
+
+    for (int i = 0; i < PointNumber; ++i) {
+
+        PointCloud[i].PointPos.x -= center_x;
+        PointCloud[i].PointPos.y -= center_y;
+        PointCloud[i].PointPos.z -= center_z;
+    }
+
+
+    // 移动y坐标 --- 统一将模型向上移动了
+    float translate_y = fabs(PointCloud[RootPointId].PointPos.y);
+    for (int i = 0; i < PointNumber; ++i) {
+        PointCloud[i].PointPos.y += translate_y;
+    }
+
+}
+
+
+void SpaceColonization::findTreeCenter() {
+
+    float max_x, max_y, max_z;
+    float min_x, min_y, min_z;
+
+    if (PointCloud.size() == 0) {
+        cout << "empty point" << endl;
+        exit(1);
+    }
+
+    min_x = max_x = PointCloud[0].PointPos.x;
+    min_y = max_y = PointCloud[0].PointPos.y;
+    min_z = max_z = PointCloud[0].PointPos.z;
+
+
+    for (int i = 1; i < PointNumber; ++i) {
+
+        if (PointCloud[i].PointPos.x > max_x) {
+            max_x = PointCloud[i].PointPos.x;
+
+        } else if (PointCloud[i].PointPos.x < min_x) {
+
+            min_x = PointCloud[i].PointPos.x;
+        }
+
+        if (PointCloud[i].PointPos.y > max_y) {
+            max_y = PointCloud[i].PointPos.y;
+
+        } else if (PointCloud[i].PointPos.y < min_y) {
+
+            min_y = PointCloud[i].PointPos.y;
+        }
+
+        if (PointCloud[i].PointPos.z > max_z) {
+            max_z = PointCloud[i].PointPos.z;
+
+        } else if (PointCloud[i].PointPos.z < min_z) {
+
+            min_z = PointCloud[i].PointPos.z;
+        }
+
+    }
+
+
+    cube_left_top_x = max_x;
+    cube_left_top_y = max_y;
+    cube_left_top_z = max_z;
+
+    cube_right_buttom_x = min_x;
+    cube_right_buttom_y = min_y;
+    cube_right_buttom_z = min_z;
+
+}
+
+
+
 //OCPoint * pointSet;
 
 SpaceColonization::SpaceColonization() {
@@ -79,6 +167,11 @@ void SpaceColonization::LoadPointCloud() {
     }
 
     cout << "pointNumber" << PointNumber << endl;
+
+    RootPointId = findStartPoint();
+
+    findTreeCenter(); //2016-10-29
+    translateTreeCenter(); //2016-10-29
 
     RootPointId = findStartPoint();
 

@@ -58,6 +58,8 @@ private :
     vector<Bound> boundSet;
     // Bounds bound;
 
+    int RootPointId;
+
     void createCubicList();
 
     void drawCubic();
@@ -75,6 +77,12 @@ private :
     void fileLeafCubic(Bound bound, OCTreeNode *leafNode);
 
     void doSearchPoint();
+
+    void translateTreeCenter();
+
+    void findTreeCenter();
+
+    int findStartPoint();
 
 public :
     OCTree();

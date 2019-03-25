@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/acuracyCalculation.dir/LineDistence.cpp.obj"
   "CMakeFiles/acuracyCalculation.dir/CTree.cpp.obj"
   "CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj"
+  "CMakeFiles/acuracyCalculation.dir/Utils.cpp.obj"
   "acuracyCalculation.pdb"
   "acuracyCalculation.exe"
   "acuracyCalculation.exe.manifest"

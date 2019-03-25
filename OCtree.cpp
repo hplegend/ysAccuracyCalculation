@@ -8,6 +8,115 @@ ofstream outNumber(".\\model\\number.txt");
 
 ofstream cubicStream(".\\model\\cubic.txt");
 
+
+extern float cube_left_top_x ,cube_left_top_y,cube_left_top_z;
+extern float cube_right_buttom_x ,cube_right_buttom_y,cube_right_buttom_z;
+/*
+ * 把物体移动到世界坐标的中心
+ * step 1：计算包围盒的中心
+ * step 2：计算包围盒中心与世界坐标的偏移向量
+ * step 3：每一个点与偏移向量的和
+ * step 4：得到新坐标系
+*/
+void OCTree::translateTreeCenter() {
+
+    float center_x = cube_right_buttom_x + (cube_left_top_x - cube_right_buttom_x) / 2.0;
+    float center_y = cube_right_buttom_y + (cube_left_top_y - cube_right_buttom_y) / 2.0;
+    float center_z = cube_right_buttom_z + (cube_left_top_z - cube_right_buttom_z) / 2.0;
+
+    for (int i = 0; i < pointSetSize; ++i) {
+
+        OctreePointSet[i].x -= center_x;
+        OctreePointSet[i].y -= center_y;
+        OctreePointSet[i].z -= center_z;
+    }
+
+
+    // 移动y坐标 --- 统一将模型向上移动了
+    float translate_y = fabs(OctreePointSet[RootPointId].y);
+    for (int i = 0; i < pointSetSize; ++i) {
+        OctreePointSet[i].y += translate_y;
+    }
+
+}
+
+
+void OCTree::findTreeCenter() {
+
+    float max_x, max_y, max_z;
+    float min_x, min_y, min_z;
+
+    if (OctreePointSet.size() == 0) {
+        cout << "empty point" << endl;
+        exit(1);
+    }
+
+    min_x = max_x = OctreePointSet[0].x;
+    min_y = max_y = OctreePointSet[0].y;
+    min_z = max_z = OctreePointSet[0].z;
+
+
+    for (int i = 1; i < pointSetSize; ++i) {
+
+        if (OctreePointSet[i].x > max_x) {
+            max_x = OctreePointSet[i].x;
+
+        } else if (OctreePointSet[i].x < min_x) {
+
+            min_x = OctreePointSet[i].x;
+        }
+
+        if (OctreePointSet[i].y > max_y) {
+            max_y = OctreePointSet[i].y;
+
+        } else if (OctreePointSet[i].y < min_y) {
+
+            min_y = OctreePointSet[i].y;
+        }
+
+        if (OctreePointSet[i].z > max_z) {
+            max_z = OctreePointSet[i].z;
+
+        } else if (OctreePointSet[i].z < min_z) {
+
+            min_z = OctreePointSet[i].z;
+        }
+
+    }
+
+
+    cube_left_top_x = max_x;
+    cube_left_top_y = max_y;
+    cube_left_top_z = max_z;
+
+    cube_right_buttom_x = min_x;
+    cube_right_buttom_y = min_y;
+    cube_right_buttom_z = min_z;
+
+}
+
+int OCTree::findStartPoint() {
+    int i;
+    int minYId; //假设以Y值作为最小  树的生长方向是Y方向
+    double minYValue;
+
+    minYId = 0;
+    minYValue = 65535.0;
+
+    for (i = 0; i < pointSetSize; i++) {
+        if (OctreePointSet[i].y < minYValue) {
+            minYValue = OctreePointSet[i].y;
+            minYId = i;
+        }
+    }
+
+
+    cout << OctreePointSet[minYId].y << endl;
+    return minYId;
+
+}
+
+
 OCTree::OCTree() {
 
 }
@@ -21,6 +130,12 @@ void OCTree::OCtreeExecute() {
 
     // 读取空间点云
     readPoint();
+
+
+    RootPointId = findStartPoint();
+
+    findTreeCenter();
+    translateTreeCenter();
 
     // 分配根节点
     root = (OCNode *) malloc(sizeof(OCNode));

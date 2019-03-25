@@ -382,6 +382,12 @@ C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Matrix3D.h
 Vector3D.h
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
 
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.cpp
+OCtree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
+Vector3D.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.h
+
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
 windows.h
 -
@@ -393,6 +399,12 @@ vector
 -
 fstream
 -
+
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.cpp
+SpaceColonizationHeader.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h
+OCtree.h
+C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/OCtree.h
 
 C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h
 stdio.h

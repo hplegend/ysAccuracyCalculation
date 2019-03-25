@@ -353,6 +353,9 @@ CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj: ../SpaceColon
 CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj: ../Vector3D.h
 CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj: ../vector3D.h
 
+CMakeFiles/acuracyCalculation.dir/Utils.cpp.obj: ../Utils.cpp
+CMakeFiles/acuracyCalculation.dir/Utils.cpp.obj: ../Utils.h
+
 CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj: C:/Program\ Files\ (x86)/CodeBlocks/MinGW/include/GL/gl.h
 CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj: C:/Program\ Files\ (x86)/CodeBlocks/MinGW/include/GL/glext.h
 CMakeFiles/acuracyCalculation.dir/Vector3D.cpp.obj: C:/Program\ Files\ (x86)/CodeBlocks/MinGW/include/GL/glu.h

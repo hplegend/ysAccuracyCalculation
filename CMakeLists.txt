@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(acuracyCalculation main.cpp PointNodeStructure.cpp FileReader.cpp FileReader.h PointNodesComparison.cpp PointNodesComparison.h
         Matrix3D.h Vector3D.h  CTree.h LineDistence.h SpaceColonizationHeader.h
-        Matrix3D.cpp  Vector3D.cpp SpaceColonizationHeader.cpp LineDistence.cpp CTree.cpp OCtree.cpp OCtree.h)
+        Matrix3D.cpp  Vector3D.cpp SpaceColonizationHeader.cpp LineDistence.cpp CTree.cpp OCtree.cpp OCtree.h Utils.cpp Utils.h)
 
 #Where to find CMake modules and OpenCV
 set(TARGET_INCLUDE

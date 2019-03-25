@@ -131,6 +131,12 @@
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/SpaceColonizationHeader.h">
 			<Option target="acuracyCalculation"/>
 		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Utils.cpp">
+			<Option target="acuracyCalculation"/>
+		</Unit>
+		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Utils.h">
+			<Option target="acuracyCalculation"/>
+		</Unit>
 		<Unit filename="C:/Users/hp.he/CLionProjects/ysAccuracyCalculation/Vector3D.cpp">
 			<Option target="acuracyCalculation"/>
 		</Unit>
