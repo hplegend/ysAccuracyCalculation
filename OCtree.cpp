@@ -34,7 +34,7 @@ void OCTree::OCtreeExecute() {
     // ±éÀú°Ë²æÊ÷
     transerver(root);
 
-    //
+    // Ä£ÄâËÑË÷
     doSearchPoint();
 
     // ´´½¨äÖÈ¾list
@@ -505,13 +505,13 @@ bool OCTree::searchPointInOCtree(OCtreePoint searchPoint, OCTreeNode *branch) {
                 abs(branch->element[i].y - searchPoint.y) <= 0.00001 &&
                 abs(branch->element[i].z - searchPoint.z) <= 0.00001
                     ) {
-                cout << "findddddd" << branch->element[i].x << "------" << branch->element[i].y << "------"
+                cout << "find: " << branch->element[i].x << "," << branch->element[i].y << ","
                      << branch->element[i].z << endl;
                 return true;
             }
         }
 
-        cout << "not findddddd" << searchPoint.x << "------" << searchPoint.y << "------"
+        cout << "not find: " << searchPoint.x << "," << searchPoint.y << ","
              << searchPoint.z << endl;
         return false;
     }

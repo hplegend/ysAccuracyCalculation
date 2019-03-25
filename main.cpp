@@ -109,7 +109,7 @@ static  void key(unsigned char key, int x, int y)
             g_modelPos[1] -= 1;
             break;
         case 'z':
-            g_modelPos[2] += 1;
+            g_modelPos[2] += 0.4;
             break;
         case 'x':
             g_modelPos[2] -= 1;
@@ -238,7 +238,7 @@ int main (int argv , char * argc[])
     glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_DOUBLE);
     glutInitWindowPosition(10,10);
     glutInitWindowSize(1024,768);
-    glutCreateWindow("SpaceColonizationAlgorithmByHepeng");
+    glutCreateWindow("ImplementBy CAU DOC-YangSi");
 
     glutDisplayFunc(display);
     glutReshapeFunc(resize);
