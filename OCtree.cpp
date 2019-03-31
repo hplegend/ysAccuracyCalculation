@@ -135,8 +135,8 @@ void OCTree::OCtreeExecute() {
 
     RootPointId = findStartPoint();
 
-    /*  findTreeCenter();
-      translateTreeCenter();*/
+      findTreeCenter();
+      translateTreeCenter();
 
     // 分配根节点
     root = (OCNode *) malloc(sizeof(OCNode));
