@@ -142,34 +142,34 @@ static void key(unsigned char key, int x, int y) {
             exit(0);
             break;
         case 'w':
-            g_rotx += 2;
+            g_rotx += 0.5;
             break;
         case 's':
-            g_rotx -= 2;
+            g_rotx -= 0.5;
             break;
         case 'a':
-            g_roty += 2;
+            g_roty += 0.5;
             break;
         case 'd':
-            g_roty -= 2;
+            g_roty -= 0.5;
             break;
         case 'q':
-            g_modelPos[1] += 1;
+            g_modelPos[1] += 0.3;
             break;
         case 'e':
-            g_modelPos[1] -= 1;
+            g_modelPos[1] -= 0.3;
             break;
         case 'z':
-            g_modelPos[2] += 1;
+            g_modelPos[2] += 0.3;
             break;
         case 'x':
-            g_modelPos[2] -= 1;
+            g_modelPos[2] -= 0.3;
             break;
         case 'o':
-            g_rotz += 5;
+            g_rotz += 0.5;
             break;
         case 'p':
-            g_rotz -= 5;
+            g_rotz -= 0.5;
             break;
         case '1':
             Point_Skeleton_flag = 1;
