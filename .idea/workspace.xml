@@ -5,38 +5,219 @@
       <config projectName="acuracyCalculation" targetName="acuracyCalculation" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="111a952f-9c34-43a9-88db-42019be1b9b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_orgin.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OCtree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OCtree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OCtree.h" beforeDir="false" afterPath="$PROJECT_DIR$/OCtree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpaceColonizationHeader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceColonizationHeader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceColonizationHeader.h" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceColonizationHeader.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/OCtree.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/SpaceColonizationHeader.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acuracyCalculation.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/acuracyCalculation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/acuracyCalculation.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/acuracyCalculation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/acuracyCalculation.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0035.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0045.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0050.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0055.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0035.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0045.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0050.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0055.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0035/0.0035_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0040.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0045.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0050.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0055.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0040/0.0040_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0045.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0050.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0055.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0045/0.0045_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0050.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0055.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0050/0.0050_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0055.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0055/0.0055_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0060.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0060/0.0060_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0065.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0065/0.0065_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0070.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0070/0.0070_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0075.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0080.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0085.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0090.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0095.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/0.0120/0.0120_0.0120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data/0.0120/0.0120_0.0120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/model/center.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/model/center.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/model/cubic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/model/cubic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/model/number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/model/number.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -81,44 +262,46 @@
     <session id="-1246838944">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1953" />
-          <entry key="h" value="454" />
-          <entry key="txt" value="61" />
+          <entry key="cpp" value="2961" />
+          <entry key="h" value="484" />
+          <entry key="txt" value="1019" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="15" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="2405" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="ObjectiveC" value="3443" />
+          <entry key="PLAIN_TEXT" value="1004" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="6" />
-          <entry key="fstream" value="1" />
-          <entry key="h" value="6" />
-          <entry key="txt" value="14" />
+          <entry key="cpp" value="13" />
+          <entry key="fstream" value="2" />
+          <entry key="h" value="10" />
+          <entry key="pcd" value="1" />
+          <entry key="txt" value="251" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="13" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="ObjectiveC" value="25" />
+          <entry key="PLAIN_TEXT" value="251" />
         </counts>
       </usages-collector>
     </session>
@@ -128,20 +311,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="109" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="307">
+              <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -150,57 +324,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpaceColonizationHeader.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="183" selection-start-line="183" selection-end-line="202" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpaceColonizationHeader.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="68" selection-start-line="68" selection-end-line="68" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OCtree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1161">
-              <caret line="134" column="35" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+            <state relative-caret-position="-622">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OCtree.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -219,6 +349,14 @@
       <find>outNumber</find>
       <find>LoadPointCloud</find>
       <find>drawCubic</find>
+      <find>doSearchPoint</find>
+      <find>not</find>
+      <find>fffff</find>
+      <find>Point_Skeleton_flag</find>
+      <find>0.1283</find>
+      <find>error</find>
+      <find>Size&quot;</find>
+      <find>not find</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,19 +365,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PointNodeStructure.cpp" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/text.txt" />
-        <option value="$PROJECT_DIR$/FileReader.h" />
-        <option value="$PROJECT_DIR$/FileReader.cpp" />
-        <option value="$PROJECT_DIR$/PointNodesComparison.h" />
-        <option value="$PROJECT_DIR$/PointNodesComparison.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0030.txt" />
-        <option value="$PROJECT_DIR$/SpaceColonizationHeader.h" />
-        <option value="$PROJECT_DIR$/SpaceColonizationHeader.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/OCtree.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0075/0.0075_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0080.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0085.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0090.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0095.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0100.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0080/0.0080_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0085.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0090.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0095.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0100.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0090.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0095.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0100.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0095.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0100.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0100.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0105.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0110.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0115.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0120.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/data/0.0120/0.0120_0.0120.txt" />
         <option value="$PROJECT_DIR$/OCtree.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -251,8 +427,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1469" />
-    <option name="y" value="49" />
+    <option name="x" value="1965" />
+    <option name="y" value="-63" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
   </component>
@@ -270,6 +446,11 @@
               <item name="acuracyCalculation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ysAccuracyCalculation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="acuracyCalculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ysAccuracyCalculation" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -285,8 +466,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug" />
+      <recent name="C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug\data" />
       <recent name="C:\Users\hp.he\CLionProjects\ysAccuracyCalculation" />
+      <recent name="C:\Users\hp.he\CLionProjects\ysAccuracyCalculation\cmake-build-debug" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,29 +515,31 @@
       <workItem from="1553327770708" duration="6741000" />
       <workItem from="1553420987370" duration="14846000" />
       <workItem from="1553440458609" duration="2002000" />
-      <workItem from="1553515807819" duration="3395000" />
+      <workItem from="1553515807819" duration="3826000" />
+      <workItem from="1553914960810" duration="8435000" />
+      <workItem from="1553932158928" duration="18967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38031000" />
+    <option name="totallyTimeSpent" value="65864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-320" width="1936" height="1096" extended-state="6" />
+    <frame x="1358" y="-290" width="1696" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.23497854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.19642857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50213677" side_tool="true" weight="0.20171149" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50425893" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5495208" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42464247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49614963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.5686901" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.38125667" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.4807481" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24532454" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3295082" />
@@ -379,6 +563,11 @@
           <line>16</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/OCtree.cpp</url>
+          <line>164</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -400,150 +589,309 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/text.txt">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0105.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PointNodesComparison.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0110.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="36" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileReader.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0115.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileReader.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0085/0.0085_0.0120.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="58" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PointNodeStructure.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0090.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="25" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PointNodesComparison.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0095.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vector3D.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0100.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/model/parts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/model/center.txt">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0105.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.4.1/include/c++/fstream">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0110.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="622" column="6" selection-start-line="622" selection-start-column="6" selection-end-line="622" selection-end-column="6" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/model/cubic.txt">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0115.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3409">
-          <caret line="262144" lean-forward="true" selection-start-line="262144" selection-end-line="262144" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/model/NormalDensity_07.txt">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0090/0.0090_0.0120.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5366" column="6" selection-start-line="5366" selection-end-line="5366" selection-end-column="6" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0030/0.0030_0.0030.txt">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0095.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0100.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="109" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0105.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0110.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0115.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0095/0.0095_0.0120.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0100.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0105.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0110.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0115.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0100/0.0100_0.0120.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0105.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0110.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0115.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0105/0.0105_0.0120.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0110.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0115.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0110/0.0110_0.0120.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0115.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0115/0.0115_0.0120.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/data/0.0120/0.0120_0.0120.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0030result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceColonizationHeader.cpp">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0035result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0040result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0045result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="183" selection-start-line="183" selection-end-line="202" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceColonizationHeader.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0060result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0065result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0070result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0080result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0085result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0090result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0120result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0115result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0075result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0055result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/0050result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="68" selection-start-line="68" selection-end-line="68" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCtree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/OCtree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1161">
-          <caret line="134" column="35" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+        <state relative-caret-position="-622">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

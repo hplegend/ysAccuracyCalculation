@@ -1,6 +1,7 @@
 #include <windows.h>
 #include <GL\glut.h>
 #include <sys/time.h>
+#include <io.h>
 #include <time.h>
 #include "SpaceColonizationHeader.h"
 #include "OCtree.h"
@@ -75,8 +76,65 @@ static void resize(int width, int height) {
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 
+}
+
+/*code*/
+bool ListFiles(char folderName[], vector<string> &vFileNames) {
+    WIN32_FIND_DATA ffd;
+
+    char szDir[MAX_PATH];
+    HANDLE hFind = INVALID_HANDLE_VALUE;
+
+    strcpy(szDir, folderName);
+
+    hFind = FindFirstFile(szDir, &ffd);
+
+    if (INVALID_HANDLE_VALUE == hFind) {
+        cout << "empty folder" << endl;
+        return false;
+    }
+
+
+    do {
+        if (!(ffd.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY))
+            vFileNames.push_back(ffd.cFileName);
+    } while (FindNextFile(hFind, &ffd) != 0);
+
+    FindClose(hFind);
+    return true;
 
 }
+
+
+void listFiles(const char *dir, vector<string> &vDirectory) {
+    using namespace std;
+    HANDLE hFind;
+    WIN32_FIND_DATA findData;
+    LARGE_INTEGER size;
+    hFind = FindFirstFile(dir, &findData);
+    if (hFind == INVALID_HANDLE_VALUE) {
+        cout << "Failed to find first file!\n";
+        return;
+    }
+    do {
+        // 忽略"."和".."两个结果
+        if (strcmp(findData.cFileName, ".") == 0 || strcmp(findData.cFileName, "..") == 0)
+            continue;
+        if (findData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)    // 是否是目录
+        {
+            vDirectory.push_back(findData.cFileName);
+            cout << findData.cFileName << "\t<dir>\n";
+        }
+        /*  else
+          {
+              size.LowPart = findData.nFileSizeLow;
+              size.HighPart = findData.nFileSizeHigh;
+              cout << findData.cFileName << "\t" << size.QuadPart << " bytes\n";
+          }*/
+    } while (FindNextFile(hFind, &findData));
+    cout << "Done!\n";
+}
+
 
 static void key(unsigned char key, int x, int y) {
     switch (key) {
@@ -102,7 +160,7 @@ static void key(unsigned char key, int x, int y) {
             g_modelPos[1] -= 1;
             break;
         case 'z':
-            g_modelPos[2] += 0.4;
+            g_modelPos[2] += 1;
             break;
         case 'x':
             g_modelPos[2] -= 1;
@@ -133,6 +191,9 @@ static void key(unsigned char key, int x, int y) {
             break;
         case '7':
             Point_Skeleton_flag = 7;
+            break;
+        case '8':
+            Point_Skeleton_flag = 8;
             break;
         case ' ':
             g_bShowLeaves = !g_bShowLeaves;
@@ -204,6 +265,38 @@ glTranslatef(0.0f,0.0f,centerz);
 
         //colonization.drawProcess();
     }
+
+    if (Point_Skeleton_flag == 8) {
+
+        vector<string> vDirectory;
+        vDirectory.clear();
+        listFiles(".\\data\\*.*", vDirectory);
+        ofstream outFile;
+        outFile.open("./result.txt");
+
+        char curFileName[100];
+        char curTempDirectoryName[100];
+        for (int j = 0; j < vDirectory.size(); ++j) {
+            vector<string> vFileNames;
+            vFileNames.clear();
+            // list all file :
+            sprintf(curTempDirectoryName, ".\\data\\%s\\*", vDirectory[j].c_str());
+            ListFiles(curTempDirectoryName, vFileNames);
+            Point_Skeleton_flag = 7;
+
+            for (int i = 0; i < vFileNames.size(); ++i) {
+                sprintf(curFileName, ".\\data\\%s\\%s", vDirectory[j].c_str(), vFileNames[i].c_str());
+                double accuracy = octree.doSearchPoint(curFileName);
+                outFile << curFileName << ":" << accuracy << endl;
+            }
+        }
+
+
+        outFile.close();
+
+        //colonization.drawProcess();
+    }
+
     glutSwapBuffers();   //why?不用swapBuffer就出问题了
 
 }

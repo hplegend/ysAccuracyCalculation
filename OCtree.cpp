@@ -9,8 +9,9 @@ ofstream outNumber(".\\model\\number.txt");
 ofstream cubicStream(".\\model\\cubic.txt");
 
 
-extern float cube_left_top_x ,cube_left_top_y,cube_left_top_z;
-extern float cube_right_buttom_x ,cube_right_buttom_y,cube_right_buttom_z;
+extern float cube_left_top_x, cube_left_top_y, cube_left_top_z;
+extern float cube_right_buttom_x, cube_right_buttom_y, cube_right_buttom_z;
+
 /*
  * 把物体移动到世界坐标的中心
  * step 1：计算包围盒的中心
@@ -134,8 +135,8 @@ void OCTree::OCtreeExecute() {
 
     RootPointId = findStartPoint();
 
-    findTreeCenter();
-    translateTreeCenter();
+    /*  findTreeCenter();
+      translateTreeCenter();*/
 
     // 分配根节点
     root = (OCNode *) malloc(sizeof(OCNode));
@@ -150,7 +151,7 @@ void OCTree::OCtreeExecute() {
     transerver(root);
 
     // 模拟搜索
-    doSearchPoint();
+    //  doSearchPoint();
 
     // 创建渲染list
     createCubicList();
@@ -158,6 +159,34 @@ void OCTree::OCtreeExecute() {
     //  cubicStream.close();
 }
 
+
+float OCTree::doSearchPoint(const char *fileName) {
+    // read from file
+    ifstream inFile(fileName);
+
+    OCPoint curSearchPoint;
+
+    int cnt;
+    inFile >> cnt;
+
+    int matchNum = 0;
+
+    int r, g, b;
+    for (int i = 0; i < cnt; ++i) {
+
+        cout << "do find" << endl;
+        inFile >> curSearchPoint.x >> curSearchPoint.y >> curSearchPoint.z;
+        inFile >> r >> g >> b;
+
+        bool searchRet = searchPointInOCtree(curSearchPoint, root);
+
+        if (searchRet) {
+            ++matchNum;
+        }
+    }
+
+    return (matchNum * 1.0) / cnt;
+}
 
 void OCTree::doSearchPoint() {
 
@@ -178,17 +207,18 @@ void OCTree::readPoint() {
     int number;
     int i;
     // ifstream inFile(".\\model\\NormalDensity_07.txt");
-    ifstream inFile(".\\data\\0.0030\\0.0030_0.0030.txt");
+    ifstream inFile(".\\data\\groundtruth.pcd");
+    // ifstream inFile(".\\data\\0.0030\\0.0030_0.0030.txt");
 
     OctreePointSet.clear();
     inFile >> number;
     pointSetSize = number;
-    int r, g, b;
+    long long r, g, b;
     for (i = 0; i < number; i++) {
         inFile >> point.x >> point.y >> point.z;
 
         // discard
-        inFile >> r >> g >> b;
+        inFile >> r;
         /*  point.x*=16;
           point.y*=16;
           point.z*=16;*/
@@ -291,10 +321,11 @@ void OCTree::fileLeafCubic(Bound bound, OCNode *leafNode) {
 
     }
 
-    if (leafNode->element.size() > 2000) {
-        cout << "error" << endl;
-        system("pause");
-    }
+      if (leafNode->element.size() > 2000) {
+          cout << leafNode->bounds.center.x << "," <<leafNode->bounds.center.y<<"," <<leafNode->bounds.center.z<<
+          "error" << endl;
+          system("pause");
+      }
 
     cubicStream << "node number：" << leafNode->element.size() << endl;
 }

@@ -99,6 +99,8 @@ public :
 
     void OCtreeExecute();
 
+    float doSearchPoint(const char * fileName);
+
     bool searchPointInOCtree(OCtreePoint OCPoint, OCTreeNode *branch);
 
 };

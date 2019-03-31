@@ -123,7 +123,8 @@ SpaceColonization::~SpaceColonization() {
 void SpaceColonization::LoadPointCloud() {
     //   ifstream inFile(".\\model\\leaf3out2.txt");
     //ifstream inFile(".\\model\\PointsGe.txt");
-    ifstream inFile(".\\data\\0.0030\\0.0030_0.0030.txt");
+    ifstream inFile(".\\data\\groundtruth.pcd");
+  //  ifstream inFile(".\\data\\0.0030\\0.0030_0.0030.txt");
     // ifstream inFile(".\\model\\tranlate.txt");
     //   ifstream inFile(".\\model\\parts.txt");
     //  ifstream inFile(".\\model\\processOut01.txt");
@@ -143,7 +144,7 @@ void SpaceColonization::LoadPointCloud() {
     // pointSet = (OCPoint*)malloc(sizeof(OCPoint)*PointNumber);
 
 
-    int r, g, b;
+    long long r, g, b;
 
     for (i = 0; i < PointNumber; i++) //循环读取点的数据
     {
@@ -151,7 +152,7 @@ void SpaceColonization::LoadPointCloud() {
         FilePoint.flag = true;
         FilePoint.PointId = i;   //读取顺序就是ID
 
-        inFile >> r >> g >> b;
+        inFile >> r  ;
 
         /*  FilePoint.PointPos.x*=16;
           FilePoint.PointPos.y*=16;
